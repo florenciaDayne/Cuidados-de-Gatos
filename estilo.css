@@ -1,0 +1,95 @@
+body {
+    font-family: Arial,sans-serif;
+    background-color: #fdf8f3;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+/* HEADER */
+header {
+    background-color: #f4c27a;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    color:#5c3b1e;
+}
+.subtitulo {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/*SECCIONES */
+.presentacion,
+.cuidados,
+.tabla-seccion,
+.final {
+    width: 80%;
+    margin: 25px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0,1);
+}
+/* IMAGENES */
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.imagenes img:hover {
+    transform: scale(1.05);  
+}
+
+/*LISTA */
+ul {
+    list-style-type: square;
+    text-align: left;
+    display: inline-block;
+}
+/*TABLA */
+table { 
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th{
+    background-color: #f4c27a;
+    color: #5c3b1e;
+    padding: 10px;
+}
+td { 
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover { background-color: #fff1dc;
+}
+
+/*BOTON */
+button { 
+    background-color: #f4c27a;
+    color:#5c3b1e;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e8b45e;
+    transform: scale(1,05);
+
+}
